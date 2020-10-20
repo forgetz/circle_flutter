@@ -15,14 +15,14 @@ class _RecentMessageState extends State<RecentMessage> {
         decoration: BoxDecoration(
           color: Colors.white,
           borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(30.0),
-            topRight: Radius.circular(30.0),
+            topLeft: Radius.circular(0.0),
+            topRight: Radius.circular(0.0),
           ),
         ),
         child: ClipRRect(
           borderRadius: BorderRadius.only(
-            topLeft: Radius.circular(30.0),
-            topRight: Radius.circular(30.0),
+            topLeft: Radius.circular(0.0),
+            topRight: Radius.circular(0.0),
           ),
           child: ListView.builder(
               itemCount: mockupRecentMessage.length,
@@ -47,7 +47,8 @@ class _RecentMessageState extends State<RecentMessage> {
                         bottomRight: Radius.circular(20.0),
                       ),
                     ),
-                    margin: EdgeInsets.only(top: 5.0, bottom: 5.0, right: 10.0),
+                    margin:
+                        EdgeInsets.only(top: 10.0, bottom: 5.0, right: 10.0),
                     padding:
                         EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
                     child: Row(

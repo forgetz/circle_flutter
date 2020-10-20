@@ -44,7 +44,7 @@ class _CircleScreenState extends State<CircleScreen> {
                 color: Theme.of(context).accentColor,
                 borderRadius: BorderRadius.only(
                   topLeft: Radius.circular(30.0),
-                  topRight: Radius.circular(30.0),
+                  topRight: Radius.circular(0.0),
                 ),
               ),
               child: Column(
